@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee List</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Neonderthaw&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- STYLE -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="js-vertical-aside open">
+    <header class="header">
+        <div class="container">
+            <img class="logo" src="./img/skg-logo.png" alt="logo">
+            
+            <div class="account js-account">
+                <img src="./img/profile.jpg" alt="profile">
+                <nav class="header-dropdown js-header-dropdown">
+                    <a href="#">Profile</a>
+                    <a href="#">Logout</a>
+                </nav>
+            </div>
+
+            <div class="bars-icon js-bars-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <aside class="vertical-aside">
+        <a class="aside-link" href="index.html"><i class="fas fa-home"></i> Dashboard</a>
+        <a class="aside-link active" href="employee-list.html"><i class="fas fa-users"></i> Employee</a>
+        <a class="aside-link" href="attendance.html"><i class="fas fa-calendar-alt"></i> Attendance</a>
+        <a class="aside-link" href="#"><i class="fas fa-user-minus"></i> Leave</a>
+        <a class="aside-link" href="#"><i class="fas fa-money-bill"></i> Salary Slip</a>
+        <a class="aside-link" href="#"><i class="fas fa-tasks"></i> Activities</a>
+        <a class="aside-link aside-link-sp" href="#"><i class="fas fa-user"></i> Profile</a>
+        <a class="aside-link aside-link-sp" href="#"><i class="fas fa-sign-out-alt"></i> Logout</a>
+    </aside>
+
+    <main class="main-content">
+        <h2 class="main-content__title">Employee List</h2>
+        <div class="employee-list">
+            <table class="employee-list-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Details</th>
+                        <th>Attendance</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Win Htun Oo</td>
+                        <td><a href="#">View</a></td>
+                        <td><a href="#">View</a></td>
+                    </tr>
+                    <tr>
+                        <td>Toe Wai Lin</td>
+                        <td><a href="#">View</a></td>
+                        <td><a href="#">View</a></td>
+                    </tr>
+                    <tr>
+                        <td>Thant Myat Sin</td>
+                        <td><a href="#">View</a></td>
+                        <td><a href="#">View</a></td>
+                    </tr>
+                    <tr>
+                        <td>Shwe Sin Nyein</td>
+                        <td><a href="#">View</a></td>
+                        <td><a href="#">View</a></td>
+                    </tr>
+                    <tr>
+                        <td>Phyo Thandar</td>
+                        <td><a href="#">View</a></td>
+                        <td><a href="#">View</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
